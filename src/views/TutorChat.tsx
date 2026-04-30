@@ -14,6 +14,7 @@ The module covers:
 4. Generative AI: Prompt Engineering (RISE/CODE frameworks), Token Economy (rough rule: 1000 tokens ≈ 750 words), Context Windows, Transformers (2017 Breakthrough).
 5. Architecture: GANs (Generator vs Discriminator), Diffusion (Forward noise vs Reverse denoising).
 6. Ethics: Dr. Ruha Benjamin's "The New Jim Code" (Engineered Inequality, Coded Exposure, Techno-Benevolence), Fair Use (4 factors).
+7. Production: GANs (Generator/Forger vs Discriminator/Expert), Diffusion (Forward noise vs Reverse denoising), AI Filmmaking Pipeline (5 phases: Pre-prod, Asset Dev, First Frame, Adding Motion, Lip Sync).
 
 Guidelines:
 - Keep answers concise, academic, and encouraging.

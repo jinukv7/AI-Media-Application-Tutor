@@ -9,7 +9,8 @@ import {
   Brain,
   Zap,
   ShieldAlert,
-  Settings
+  Settings,
+  Rocket
 } from 'lucide-react';
 import { topics, Topic } from './data/moduleContent';
 import TopicView from './views/TopicView';
@@ -111,6 +112,7 @@ export default function App() {
                         {topic.id === 'gen-ai' && <Settings className="w-6 h-6" />}
                         {topic.id === 'prompt-eng' && <BookOpen className="w-6 h-6" />}
                         {topic.id === 'ethics' && <ShieldAlert className="w-6 h-6" />}
+                        {topic.id === 'production' && <Rocket className="w-6 h-6" />}
                       </div>
                       <h3 className="text-xl font-bold mb-2">{topic.title}</h3>
                       <p className="text-gray-600 text-sm leading-relaxed">{topic.description}</p>

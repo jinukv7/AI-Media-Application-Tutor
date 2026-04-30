@@ -47,6 +47,13 @@ export const topics: Topic[] = [
         options: ['Quantum computing', 'The Imitation Game / Turing Test', 'Blockchain technology', 'Social media algorithms'],
         correctAnswer: 1,
         explanation: 'Alan Turing proposed the "Imitation Game" to test a machine\'s ability to exhibit intelligent behavior indistinguishable from a human.'
+      },
+      {
+        id: 'q2',
+        text: 'Which event in 1956 is officially recognized as the birth of AI as an academic discipline?',
+        options: ['The London Olympics', 'The Dartmouth Workshop', 'The moon landing', 'The invention of the internet'],
+        correctAnswer: 1,
+        explanation: 'The term "Artificial Intelligence" was coined at the Dartmouth Workshop in 1956, marking its start as an official field.'
       }
     ]
   },
@@ -75,6 +82,13 @@ export const topics: Topic[] = [
         options: ['Random noise', 'Ground truth', 'Latent space', 'Tokens'],
         correctAnswer: 1,
         explanation: 'Labeled data provides the "ground truth" for the model to learn correct outputs for specific inputs.'
+      },
+      {
+        id: 'ml_q2',
+        text: 'Which paradigm involves discovering structures like "Clustering" within unlabeled data?',
+        options: ['Supervised Learning', 'Reinforcement Learning', 'Unsupervised Learning', 'Prompt Engineering'],
+        correctAnswer: 2,
+        explanation: 'Unsupervised Learning works with unlabeled data to uncover hidden patterns and relationships, such as grouping similar data points (clustering).'
       }
     ]
   },
@@ -191,6 +205,13 @@ export const topics: Topic[] = [
         options: ['Engineered Inequality', 'Coded Exposure', 'Techno-Benevolence', 'Digital Glitch'],
         correctAnswer: 2,
         explanation: 'Techno-Benevolence refers to innovation that claims to help/be fair but actually enables social containment and inequality.'
+      },
+      {
+        id: 'eth_q3',
+        text: 'Which "New Jim Code" category describes systems that unfairly target or track specific groups?',
+        options: ['Engineered Inequality', 'Coded Exposure', 'Techno-Benevolence', 'Fair Use'],
+        correctAnswer: 1,
+        explanation: 'Coded Exposure (or Hyper-visibility) refers to systems that unfairly target or track specific groups, like neighborhood avoidance apps.'
       }
     ]
   },
@@ -225,6 +246,13 @@ export const topics: Topic[] = [
         options: ['The expert judge', 'The data cleaner', 'The forger creating synthetic data', 'The user interface'],
         correctAnswer: 2,
         explanation: 'The Generator acts as a "forger," creating synthetic data to try and fool the Discriminator.'
+      },
+      {
+        id: 'prod_q2',
+        text: 'In the Diffusion process, what happens during the "Forward Process"?',
+        options: ['Noise is subtracted', 'Gaussian noise is slowly added', 'The model predicts tokens', 'A prompt is engineered'],
+        correctAnswer: 1,
+        explanation: 'The Forward Process involves destroying data by slowly adding Gaussian noise until the image is pure random pixels.'
       }
     ]
   }
